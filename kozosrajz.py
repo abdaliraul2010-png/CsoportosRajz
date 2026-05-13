@@ -1,10 +1,12 @@
 import turtle
+from tracemalloc import get_object_traceback
 
-
+turtle.bgcolor("lightblue")
 turtle.color("brown")
 turtle.begin_fill()
 i=0
 
+turtle.forward(-40)
 while i<2 :
     turtle.forward(80)
     turtle.left(90)
